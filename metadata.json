@@ -1,0 +1,43 @@
+{
+  "name": "echoes-backuppc",
+  "version": "0.1.0",
+  "author": "Echoes Technologies",
+  "summary": "Puppet module to manage BackupPC package and service",
+  "license": "Apache-2.0",
+  "source": "https://github.com/echoes-tech/puppet-backuppc",
+  "project_page": "https://github.com/echoes-tech/puppet-backuppc",
+  "issues_url": "https://github.com/echoes-tech/puppet-backuppc/issues",
+  "tags": [
+    "backuppcoring"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.2.0 < 3.4.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
